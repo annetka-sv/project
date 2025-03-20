@@ -38,6 +38,14 @@
     box-shadow: 1px 2px 20px 5px #aaaaaa;
     border-radius: 25px;
     transition: background-color 0.3s ease-out;
+    
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear;
+}
+
+.our-advantages__item:hover {
+    top: 10px;
 }
 
 .our-advantages__item:hover {
@@ -94,7 +102,16 @@
     color: black;
     box-shadow: 1px 2px 20px 5px #aaaaaa;
     border-radius: 25px;
+
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear;
 }
+
+.popular-services_item:hover {
+    top: 10px
+}
+
 
 .popular-services__title-card {
     margin-top: 15px;
@@ -170,11 +187,20 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    
+
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear;
 }
+
+.stocks__image:hover {
+top: 10px;
+}
+
 /* Блок акций */
 
 /* Блок новостей */
+
 .reviews {
     margin: 20px auto;
     padding: 20px;
@@ -197,12 +223,29 @@
     border-radius: 25px;
     box-shadow: 1px 2px 10px 5px rgb(165, 210, 194);
 }
+.reviews__wrap {
+    display: flex;
+    overflow: hidden;
+}
+
+.reviews__list {
+    width: 1350px;
+    margin: 20px;
+    margin-left: 0 px;
+    margin-right: 0 px;
+    padding: 20px 10;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    overflow: hidden;
+}
 
 .item-reviews__text {
-    margin-top: 0;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     
     width: 450px;
     padding: 20px;
@@ -210,6 +253,20 @@
     color: black;
     box-shadow: 1px 2px 20px 5px #aaaaaa;
     border-radius: 25px;
+
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear;
+}
+
+.item-reviews__text:hover {
+    top: 10px;
+}
+
+.item-reviews__wrapper{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
 }
 
 .reviews__name {
@@ -218,15 +275,6 @@
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
-}
-
-.reviews__list {
-    margin: 0;
-    padding: 20px 10;
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    justify-content: space-between;
 }
 
 .reviews__content {
@@ -240,6 +288,47 @@
     height: 80px;
     object-fit: cover;
     border-radius: 100px;
+}
+
+.reviews__button-left {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 45px;
+    background-color: rgb(247, 242, 186);
+    width: 50px ;
+    height: 50px;
+    
+    cursor: pointer; 
+
+    display: block;  
+    transform: rotate(-180deg);
+    margin: 0 px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.reviews__button-left:hover {
+    background-color: rgb(250, 247, 208);  
+}
+
+.reviews__button-right {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 45px;
+    background-color: rgb(247, 242, 186);
+    width: 50px ;
+    height: 50px;
+    
+    cursor: pointer; 
+
+    display: block;
+    margin: 0 px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.reviews__button-right:hover {
+    background-color: rgb(250, 247, 208);  
 }
 
 /* Блок новостей */
@@ -281,6 +370,14 @@
    
     box-shadow: 1px 2px 20px 5px #aaaaaa;
     border-radius: 25px;
+
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear;
+}
+
+.news__item:hover {
+    top: 10px;
 }
 
 .news__list {
@@ -377,7 +474,15 @@
     color: black;
     box-shadow: 1px 2px 20px 5px #aaaaaa;
     border-radius: 25px;
+
+    position: relative;
+    top: 0;
+    transition: top 0.2s linear;
    }
+
+.doctors__card:hover {
+    top: 10px;
+}
 
    .doctors_list {
     margin: 0;
